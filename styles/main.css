@@ -18,8 +18,6 @@ header {
 a {
 	color: #268BD2;
 }
-
-/* Header --------------------- */
 header nav {
 	width: 100%;
 	background: #F2C53E;
@@ -56,30 +54,21 @@ header nav li a:hover {
 .azul{
     background-color: rgb(255, 255, 255);
     border-radius: 8px;
-	height: 400px;
+	height: 300px;
 	justify-content: center;
 }
 
-#main {
-	padding: 20px;
-}
-
-
 /* Footer
 -------------------------------------------------------------------------------*/
-footer {
+footer .border-top{
 	position: absolute;
 	background: #586E75;
-	width:100%;
-	height: 50px;
 	bottom: 0px;
-	color: #FFF;
-	font: normal 2rem 'Droid Sans';
+	font: normal 4rem 'Droid Sans';
     margin-top:10px;
 }
 
 footer p {
-	padding: 10px;
 	padding-right: 20px;
 	text-align: center;
     color: #FFF;

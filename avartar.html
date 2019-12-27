@@ -17,75 +17,54 @@
         <nav class="group">
             <ol>
                 <li><a href="#">home</a></li>
-                <li><a href="#">class</a></li>
+                <li><a href="#">categories</a></li>
                 <li><a href="#">schedule</a></li>
             </ol>
         </nav>
     </header>
     <div class="container mt-5">
-            <h4 class="headings mx-auto">Avatar Configurator</h4>
+        <h4 class="headings mx-auto">Avatar Configurator</h4>
         <div class="row">
             <div class="col-md-12"></div>
         </div>
-        <div class="row azul">
-                       														
-                <label class="row mt-5">Gender:</label>
-                <div class="form-group ml-5"> 
-
-            <div class="custom-control custom-radio custom-control-inline mt-5">
+    <div class="row azul">
+        
+        <div class="col-md-8 form-group"> 
+        <label class="row mt-5">Gender:</label>
+        <div class="custom-control custom-radio custom-control-inline mt-5">
         <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
         <label class="custom-control-label" for="customRadioInline1">Male</label>
-      </div>
-      <div class="custom-control custom-radio custom-control-inline mt-5">
+        </div>
+        <div class="custom-control custom-radio custom-control-inline mt-5">
         <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
         <label class="custom-control-label" for="customRadioInline2">Female</label>
-      </div>
-    </div>
-    
-  </div>
-                <!-- <br>
-                 <label class="row">Skin Color:</label>
-                 <div class="form-group"> 
-                      <div class="col-sm-3">
-                           <label class="radio-inline">
-                                <input name="color"  type="color" />
-                            </label>
-                       </div>
-                       <label class="row">Eye Color:</label>
-                       <div class="col-sm-3">
-                            <label class="radio-inline">
-                                 <input name="color"  type="color" />
-                            </label>
-                        </div>
-                  </div> -->
-                  
+       </div>
 
+       <label class="row mt-5">Skin Color:
+           <input type="color" name="color" id="skincolor" style="margin-left:25px;">  
+       </label>
+       
+           
+            <label class="row mt-5">Eye Color: 
+            <input type="color" name="color" id="eyecolor" style="margin-left: 25px;">
+        </label>
 
-        
-            <!-- <div class="col-md-8">
-                <div class="panel-control mt-5">
-                   
-                <div class="mover">
-                  <p>  color piel: <input type="color" id="colorpiel" onchange="colorpiel()"></p>
-                  <p> <button class="btn btn-primary" onclick="ponerPelo()">poner pelo</button></p>
-                  <p> <button class="btn btn-primary" onclick="quitarPelo()">quitar pelo</button></p>
-                </div>
+        </div>
+      
+
+        <div class="col-md-4 mt-5">
+            <div class="fondo-avatar" style="max-width: 200px;">
+            <img src="/imgs/avatar1.png" alt="avatar">
             </div>
-            </div> -->
-            
-            <div class="col-md-4 mt-5">
-                <div class="fondo-avatar" style="max-width: 200px;">
-                <img src="/avatar/avatar.png" alt="">
-                </div>
-            </div>
-        
-    </div>
+       </div>    
+</div>
 
-    
-
-    <footer class="border-top text-center small text-muted py-3 mt-2">
+     <footer class="border-top text-center small text-muted py-3 mt-2">
         <p class="mt-0"> Copyright &copy; 2019 <a href="/" class="text-muted"></a>. All rights reserved.</p>
-    </footer>
+    </footer>    
+    </div>
+         
+  
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
